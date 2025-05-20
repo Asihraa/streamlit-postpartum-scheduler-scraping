@@ -13,7 +13,7 @@ from collections import Counter
 import seaborn as sns
 from dateutil import parser
 
-dbUri = st.secrets("DB_URI")
+dbUri = st.secrets["DB_URI"]
 
 nltk.download('stopwords')
 
